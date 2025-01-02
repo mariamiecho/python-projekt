@@ -5,6 +5,11 @@
 #git log - historia commitów
 #git push origin main
 
-import time
-print(time.time())
-print("test")
+#git checkout - pozwala na przełączanie się miedzy branchami
+
+from flask import Flask
+
+app = Flask(__name__)
+
+if __name__=="__main__":
+    app.run(port=8080)
