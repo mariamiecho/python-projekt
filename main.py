@@ -5,6 +5,3 @@
 #git log - historia commitów
 #git push origin main
 
-import time
-print(time.time())
-print("test")
